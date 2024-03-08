@@ -20,15 +20,15 @@ def Register(i:list,p:list)->any:
     print("Welcome!",i+"!")
     return i,p,l1
 
-def change(login):
+def change(i):
     i=input("Enter new login: ")
     print("Login successfully changed.")
-    return login
+    return i
 
-def password(password):
+def password(p):
     p=input("Enter new password: ")
     print("Password successfully changed.")
-    return password
+    return p
 
 def main():
     user="login"
